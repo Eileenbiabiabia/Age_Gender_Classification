@@ -1,0 +1,95 @@
+Fold 4 begins to train:
+train epoch 1, 0 / 771, loss age 0.727 age acc: 12.50% data/model times 190.2 ms, 5372.6 ms
+train epoch 1, 100 / 771, loss age 0.657 age acc: 56.25% data/model times 187.5 ms, 18.0 ms
+train epoch 1, 200 / 771, loss age 0.613 age acc: 50.00% data/model times 172.0 ms, 12.9 ms
+train epoch 1, 300 / 771, loss age 0.594 age acc: 50.00% data/model times 174.8 ms, 15.9 ms
+train epoch 1, 400 / 771, loss age 0.636 age acc: 43.75% data/model times 170.7 ms, 15.0 ms
+train epoch 1, 500 / 771, loss age 0.586 age acc: 50.00% data/model times 202.8 ms, 14.7 ms
+train epoch 1, 600 / 771, loss age 0.543 age acc: 56.25% data/model times 199.0 ms, 18.1 ms
+train epoch 1, 700 / 771, loss age 0.644 age acc: 25.00% data/model times 169.5 ms, 14.6 ms
+val age acc 61.06%
+train epoch 2, 0 / 771, loss age 0.506 age acc: 62.50% data/model times 177.5 ms, 15.2 ms
+train epoch 2, 100 / 771, loss age 0.491 age acc: 81.25% data/model times 170.8 ms, 14.0 ms
+train epoch 2, 200 / 771, loss age 0.544 age acc: 56.25% data/model times 196.4 ms, 14.9 ms
+train epoch 2, 300 / 771, loss age 0.486 age acc: 81.25% data/model times 192.1 ms, 13.6 ms
+train epoch 2, 400 / 771, loss age 0.492 age acc: 81.25% data/model times 176.2 ms, 17.5 ms
+train epoch 2, 500 / 771, loss age 0.517 age acc: 43.75% data/model times 173.7 ms, 13.5 ms
+train epoch 2, 600 / 771, loss age 0.472 age acc: 62.50% data/model times 175.7 ms, 13.0 ms
+train epoch 2, 700 / 771, loss age 0.529 age acc: 68.75% data/model times 182.2 ms, 13.5 ms
+val age acc 69.25%
+train epoch 3, 0 / 771, loss age 0.498 age acc: 62.50% data/model times 190.3 ms, 22.0 ms
+train epoch 3, 100 / 771, loss age 0.440 age acc: 81.25% data/model times 182.1 ms, 13.6 ms
+train epoch 3, 200 / 771, loss age 0.565 age acc: 56.25% data/model times 192.8 ms, 13.9 ms
+train epoch 3, 300 / 771, loss age 0.420 age acc: 81.25% data/model times 190.4 ms, 13.5 ms
+train epoch 3, 400 / 771, loss age 0.466 age acc: 75.00% data/model times 182.6 ms, 16.9 ms
+train epoch 3, 500 / 771, loss age 0.504 age acc: 62.50% data/model times 184.8 ms, 15.7 ms
+train epoch 3, 600 / 771, loss age 0.505 age acc: 56.25% data/model times 172.3 ms, 12.7 ms
+train epoch 3, 700 / 771, loss age 0.462 age acc: 75.00% data/model times 168.1 ms, 14.8 ms
+val age acc 72.92%
+train epoch 4, 0 / 771, loss age 0.543 age acc: 56.25% data/model times 162.2 ms, 15.0 ms
+train epoch 4, 100 / 771, loss age 0.397 age acc: 93.75% data/model times 163.0 ms, 13.0 ms
+train epoch 4, 200 / 771, loss age 0.508 age acc: 62.50% data/model times 155.9 ms, 14.0 ms
+train epoch 4, 300 / 771, loss age 0.509 age acc: 56.25% data/model times 156.2 ms, 13.3 ms
+train epoch 4, 400 / 771, loss age 0.440 age acc: 68.75% data/model times 171.0 ms, 13.6 ms
+train epoch 4, 500 / 771, loss age 0.510 age acc: 56.25% data/model times 152.3 ms, 12.0 ms
+train epoch 4, 600 / 771, loss age 0.424 age acc: 81.25% data/model times 166.0 ms, 13.8 ms
+train epoch 4, 700 / 771, loss age 0.483 age acc: 62.50% data/model times 164.3 ms, 13.7 ms
+val age acc 73.55%
+train epoch 5, 0 / 771, loss age 0.473 age acc: 68.75% data/model times 162.2 ms, 13.0 ms
+train epoch 5, 100 / 771, loss age 0.493 age acc: 68.75% data/model times 149.4 ms, 12.5 ms
+train epoch 5, 200 / 771, loss age 0.524 age acc: 62.50% data/model times 150.9 ms, 14.0 ms
+train epoch 5, 300 / 771, loss age 0.425 age acc: 75.00% data/model times 160.6 ms, 16.1 ms
+train epoch 5, 400 / 771, loss age 0.453 age acc: 87.50% data/model times 158.5 ms, 12.0 ms
+train epoch 5, 500 / 771, loss age 0.395 age acc: 93.75% data/model times 159.0 ms, 13.1 ms
+train epoch 5, 600 / 771, loss age 0.554 age acc: 37.50% data/model times 153.2 ms, 12.5 ms
+train epoch 5, 700 / 771, loss age 0.422 age acc: 62.50% data/model times 149.2 ms, 18.1 ms
+val age acc 75.11%
+train epoch 6, 0 / 771, loss age 0.371 age acc: 93.75% data/model times 159.1 ms, 12.5 ms
+train epoch 6, 100 / 771, loss age 0.479 age acc: 75.00% data/model times 167.5 ms, 14.8 ms
+train epoch 6, 200 / 771, loss age 0.396 age acc: 87.50% data/model times 156.6 ms, 13.0 ms
+train epoch 6, 300 / 771, loss age 0.433 age acc: 62.50% data/model times 146.6 ms, 12.5 ms
+train epoch 6, 400 / 771, loss age 0.426 age acc: 81.25% data/model times 140.5 ms, 12.1 ms
+train epoch 6, 500 / 771, loss age 0.433 age acc: 75.00% data/model times 149.4 ms, 17.1 ms
+train epoch 6, 600 / 771, loss age 0.502 age acc: 81.25% data/model times 151.7 ms, 13.5 ms
+train epoch 6, 700 / 771, loss age 0.475 age acc: 75.00% data/model times 159.5 ms, 13.0 ms
+val age acc 78.72%
+train epoch 7, 0 / 771, loss age 0.408 age acc: 75.00% data/model times 154.5 ms, 14.0 ms
+train epoch 7, 100 / 771, loss age 0.551 age acc: 56.25% data/model times 148.9 ms, 12.0 ms
+train epoch 7, 200 / 771, loss age 0.352 age acc: 93.75% data/model times 158.3 ms, 13.6 ms
+train epoch 7, 300 / 771, loss age 0.407 age acc: 81.25% data/model times 154.7 ms, 12.0 ms
+train epoch 7, 400 / 771, loss age 0.394 age acc: 75.00% data/model times 151.6 ms, 14.5 ms
+train epoch 7, 500 / 771, loss age 0.491 age acc: 68.75% data/model times 158.1 ms, 14.0 ms
+train epoch 7, 600 / 771, loss age 0.347 age acc: 93.75% data/model times 156.8 ms, 14.2 ms
+train epoch 7, 700 / 771, loss age 0.366 age acc: 93.75% data/model times 164.2 ms, 12.5 ms
+val age acc 78.00%
+train epoch 8, 0 / 771, loss age 0.476 age acc: 75.00% data/model times 146.5 ms, 12.0 ms
+train epoch 8, 100 / 771, loss age 0.386 age acc: 81.25% data/model times 153.5 ms, 12.0 ms
+train epoch 8, 200 / 771, loss age 0.425 age acc: 62.50% data/model times 144.9 ms, 11.0 ms
+train epoch 8, 300 / 771, loss age 0.506 age acc: 75.00% data/model times 161.6 ms, 11.4 ms
+train epoch 8, 400 / 771, loss age 0.408 age acc: 81.25% data/model times 155.5 ms, 13.6 ms
+train epoch 8, 500 / 771, loss age 0.386 age acc: 87.50% data/model times 146.7 ms, 14.0 ms
+train epoch 8, 600 / 771, loss age 0.376 age acc: 87.50% data/model times 154.8 ms, 13.0 ms
+train epoch 8, 700 / 771, loss age 0.430 age acc: 81.25% data/model times 166.3 ms, 14.2 ms
+val age acc 77.63%
+Epoch 00008: reducing learning rate of group 0 to 3.0000e-05.
+train epoch 9, 0 / 771, loss age 0.390 age acc: 87.50% data/model times 167.6 ms, 13.6 ms
+train epoch 9, 100 / 771, loss age 0.367 age acc: 87.50% data/model times 164.0 ms, 13.0 ms
+train epoch 9, 200 / 771, loss age 0.407 age acc: 75.00% data/model times 167.2 ms, 14.2 ms
+train epoch 9, 300 / 771, loss age 0.401 age acc: 81.25% data/model times 151.4 ms, 12.5 ms
+train epoch 9, 400 / 771, loss age 0.385 age acc: 87.50% data/model times 153.1 ms, 12.0 ms
+train epoch 9, 500 / 771, loss age 0.440 age acc: 87.50% data/model times 162.0 ms, 15.0 ms
+train epoch 9, 600 / 771, loss age 0.414 age acc: 62.50% data/model times 184.4 ms, 14.7 ms
+train epoch 9, 700 / 771, loss age 0.427 age acc: 81.25% data/model times 181.2 ms, 13.5 ms
+val age acc 82.32%
+train epoch 10, 0 / 771, loss age 0.397 age acc: 87.50% data/model times 171.3 ms, 14.9 ms
+train epoch 10, 100 / 771, loss age 0.433 age acc: 81.25% data/model times 166.8 ms, 14.8 ms
+train epoch 10, 200 / 771, loss age 0.404 age acc: 75.00% data/model times 174.2 ms, 13.5 ms
+train epoch 10, 300 / 771, loss age 0.339 age acc: 100.00% data/model times 177.7 ms, 14.0 ms
+train epoch 10, 400 / 771, loss age 0.389 age acc: 93.75% data/model times 172.7 ms, 13.5 ms
+train epoch 10, 500 / 771, loss age 0.390 age acc: 75.00% data/model times 187.1 ms, 14.4 ms
+train epoch 10, 600 / 771, loss age 0.370 age acc: 87.50% data/model times 159.8 ms, 13.0 ms
+train epoch 10, 700 / 771, loss age 0.375 age acc: 81.25% data/model times 175.4 ms, 14.0 ms
+val age acc 82.25%
+test age acc 54.75%
+Fold 4 test_acc :54.75%,time :2169.71. 
+
