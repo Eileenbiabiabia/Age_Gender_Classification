@@ -14,51 +14,75 @@
 |
 |-- README.md                            # Project documentation
 
-Dataset
-	•	Audience dataset
+## Dataset
 
-Environment
-	•	Python 3.8
-	•	PyTorch
+- **Audience** dataset
 
-Classification Tasks
-	•	Age: 8 classes (0–2, 3–6, 8–13, 15–20, 22–32, 34–43, 45–53, 55–100)
-	•	Gender: 3 classes
+## Environment
 
-Steps to Run
-	1.	Run Step1_EDA.ipynb
-	•	Perform exploratory data analysis and preprocessing.
-	•	Classify images by age and gender.
-	•	Generate label.json.
-	2.	Run Step2_training.ipynb
-	•	Initial training without 5-fold cross-validation, using a 10% validation split.
-	•	Data augmentation applied via albumentations.
-Experiments:
-	1.	ResNet50, batch_size=8:
-	•	Gender Acc: 92.66%, Age Acc: 57.45%
-	•	Training Time: ~60 min
-	•	FLOPs: 85,188,107
-	•	Params: 24,821,467
-	•	Lower accuracy than reported benchmarks. Potential improvements include more epochs or larger batch size. (Original batch size: 256; reduced to 8 due to memory limits.)
-	2.	ResNet50 with One-Cycle Training, batch_size=16:
-	•	Trained for 9 epochs
-	•	Gender Acc: 95.12%, Age Acc: 68.27%
-	•	Training Time: ~53 min
-	•	Significant accuracy improvement with the same FLOPs and parameters as above.
-	3.	MobileNetV3, batch_size=16:
-	•	Gender Acc: 96.68%, Age Acc: 82.28%
-	•	Training Time: ~48 min
-	•	FLOPs: 6,415,043
-	•	Params: 3,688,163
-	•	Best performance so far. Highest accuracy, fewer parameters, and shorter training time. Future improvements should focus on MobileNetV3.
-	3.	Run Step3_mobilenetv3_training_only_age_5fold.ipynb
-	•	Remove gender prediction and focus solely on age classification.
-	•	Fine-tune MobileNetV3.
-	•	Use 5-fold cross-validation for more robust results.
-	4.	Run Step4_testing.ipynb
-	•	Test the model’s robustness using images from external sources.
+- Python 3.8
+- PyTorch
 
-Future Work
-	•	Focus on MobileNetV3 for further improvements.
-	•	Experiment with extended training time, more data augmentation, or refined hyperparameters to enhance accuracy.
-	•	Consider larger batch sizes when hardware allows.
+## Classification Tasks
+
+- **Age:** 8 classes (0–2, 3–6, 8–13, 15–20, 22–32, 34–43, 45–53, 55–100)
+- **Gender:** 3 classes
+
+## Instructions
+
+1. **Data Preprocessing**  
+   Run `code/Step1_EDA.ipynb` to:
+   - Perform exploratory data analysis (EDA).
+   - Preprocess and categorize images.
+   - Generate `label.json`.
+
+2. **Initial Training**  
+   Run `code/Step2_training.ipynb`:
+   - Uses a 10% validation split (no 5-fold CV yet).
+   - Applies data augmentation with `albumentations`.
+
+   **Experiments:**
+   
+   - **ResNet50 (batch_size=8)**  
+     - **Gender Acc:** 92.66%  
+     - **Age Acc:** 57.45%  
+     - **Time:** ~60 min  
+     - **FLOPs:** 85,188,107  
+     - **Params:** 24,821,467  
+     - *Note:* Lower accuracy than public benchmarks. Consider more epochs or larger batch sizes. (Reduced batch size from 256 to 8 due to memory limits.)
+   
+   - **ResNet50 (One-Cycle, batch_size=16)**  
+     - **Epochs:** 9  
+     - **Gender Acc:** 95.12%  
+     - **Age Acc:** 68.27%  
+     - **Time:** ~53 min  
+     - Significant improvement over previous results, same FLOPs and parameter count.
+
+   - **MobileNetV3 (batch_size=16)**  
+     - **Gender Acc:** 96.68%  
+     - **Age Acc:** 82.28%  
+     - **Time:** ~48 min  
+     - **FLOPs:** 6,415,043  
+     - **Params:** 3,688,163  
+     - Best performance so far—higher accuracy, fewer parameters, shorter training time.
+     - Future improvements should focus on MobileNetV3.
+
+3. **Fine-Tuning and 5-Fold CV**  
+   Run `code/Step3_mobilenetv3_training_only_age_5fold.ipynb`:
+   - Removes gender prediction, focusing solely on age.
+   - Fine-tunes MobileNetV3.
+   - Implements 5-fold cross-validation for robustness.
+
+4. **Testing**  
+   Run `code/Step4_testing.ipynb` to:
+   - Test the model’s robustness using external images.
+
+## Future Work
+
+- Focus on MobileNetV3 for further improvements.
+- Experiment with extended training epochs, additional data augmentation, or refined hyperparameters.
+- Consider larger batch sizes if memory permits.
+
+---
+
+**Note:** This README provides an overview of the project structure, instructions for running the code, and details on the experiments and results.
