@@ -4,21 +4,21 @@ This project aims to classify face images from the **Audience** dataset into bot
 
 ## Project Structure
 
-|-- code
-|   |-- Step1_EDA.ipynb                  # Data preprocessing (EDA, label.json generation)
-|   |-- Step2_training.ipynb             # Initial training (ResNet50, MobileNetV3)
-|   |-- Step3_mobilenetv3_training_only_age_5fold.ipynb  # MobileNetV3 only for age prediction with 5-fold CV
-|   |-- Step4_testing.ipynb              # Testing the trained models with external images
-|   |-- 附_准确率提取.ipynb                # Accuracy extraction and visualization
+|-- code  
+|   |-- Step1_EDA.ipynb                  # Data preprocessing (EDA, label.json generation)  
+|   |-- Step2_training.ipynb             # Initial training (ResNet50, MobileNetV3)  
+|   |-- Step3_mobilenetv3_training_only_age_5fold.ipynb  # MobileNetV3 only for age prediction with 5-fold CV  
+|   |-- Step4_testing.ipynb              # Testing the trained models with external images  
+|   |-- additional_accuracy.ipynb                # Accuracy extraction and visualization  
 |
-|-- log
-|   |-- fold0_train_log.txt
-|   |-- fold1_train_log.txt
-|   |-- fold2_train_log.txt
-|   |-- fold3_train_log.txt
-|   |-- fold4_train_log.txt
-|
-|-- README.md                            # Project documentation
+|-- log  
+|   |-- fold0_train_log.txt  
+|   |-- fold1_train_log.txt  
+|   |-- fold2_train_log.txt  
+|   |-- fold3_train_log.txt  
+|   |-- fold4_train_log.txt  
+|  
+|-- README.md                            # Project documentation  
 
 ## Dataset
 
