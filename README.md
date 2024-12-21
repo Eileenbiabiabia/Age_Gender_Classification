@@ -1,3 +1,9 @@
+# Audience Dataset Classification Project
+
+This project aims to classify face images from the **Audience** dataset into both age and gender categories. The environment is based on PyTorch (Python 3.8), and the architectures tested include **ResNet50** and **MobileNetV3** (from [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)).
+
+## Project Structure
+
 |-- code
 |   |-- Step1_EDA.ipynb                  # Data preprocessing (EDA, label.json generation)
 |   |-- Step2_training.ipynb             # Initial training (ResNet50, MobileNetV3)
